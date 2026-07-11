@@ -1,0 +1,10 @@
+{
+  "versionCode": 1,
+  "versionName": "1.0",
+  "minimumSupportedVersionCode": 1,
+  "forceUpdate": true,
+  "apkUrl": "https://github.com/gauravchoudhary457/rsbm-app-releases/releases/download/uat-v1.0/RSBM-UAT-v1.0.apk",
+  "sha256": "94088b163e1892ec0d466d6cddbb9baa205d30e58c35678d0d939c455d793e29",
+  "title": "RSBM App Update Required",
+  "message": "A new RSBM app version is available. Install the update to continue using the app."
+}
