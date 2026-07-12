@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#071c4a">
+<title>Download RSBM ERP App</title>
+<style>
+:root{--navy:#071c4a;--blue:#004aad;--bg:#f4f7fb;--text:#10213f;--muted:#667085;--line:#d8e2f0;--white:#fff;--warn-bg:#fff7e6;--warn:#8a4b00}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family:Arial,Helvetica,sans-serif;color:var(--text);background:linear-gradient(180deg,var(--navy) 0 245px,var(--bg) 245px 100%)}
+.wrap{width:min(980px,calc(100% - 32px));margin:0 auto;padding:38px 0 48px}
+.hero{text-align:center;color:var(--white);margin-bottom:28px}
+.mark{width:82px;height:82px;border-radius:22px;display:grid;place-items:center;margin:0 auto 18px;background:var(--white);color:var(--navy);font-size:24px;font-weight:800;box-shadow:0 12px 34px rgba(0,0,0,.22)}
+h1{margin:0;font-size:clamp(28px,5vw,42px)} .hero p{margin:10px 0 0;color:#dbe7ff;font-size:17px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:24px;box-shadow:0 16px 42px rgba(7,28,74,.13);overflow:hidden}
+.content{display:grid;grid-template-columns:1fr 260px;gap:30px;padding:32px;align-items:center}
+.badge{display:inline-flex;padding:7px 11px;border-radius:999px;background:var(--warn-bg);color:var(--warn);font-size:13px;font-weight:700;margin-bottom:14px}
+h2{margin:0 0 10px;font-size:28px} .lead{margin:0 0 20px;color:var(--muted);line-height:1.65}
+.meta{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:22px} .meta span{border:1px solid var(--line);border-radius:10px;padding:8px 11px;color:var(--muted);font-size:14px}
+.download{display:inline-flex;justify-content:center;align-items:center;min-height:54px;padding:0 25px;border-radius:12px;background:var(--blue);color:var(--white);font-size:17px;font-weight:700;text-decoration:none;box-shadow:0 8px 20px rgba(0,74,173,.24)}
+.download:hover{filter:brightness(.94)} .hint{margin:13px 0 0;color:var(--muted);font-size:13px}
+.qr{text-align:center;border-left:1px solid var(--line);padding-left:28px} .qr img{width:210px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:16px;padding:10px} .qr strong{display:block;margin-top:10px}
+.steps{border-top:1px solid var(--line);padding:26px 32px 30px;background:#fbfcfe} .steps h3{margin:0 0 14px}
+ol{margin:0;padding-left:22px;color:var(--muted);line-height:1.75}
+.security{margin-top:20px;padding:14px 16px;border-radius:12px;background:#edf5ff;color:#173c73;font-size:14px;line-height:1.55}
+footer{text-align:center;color:var(--muted);font-size:13px;margin-top:22px}
+@media(max-width:720px){body{background:linear-gradient(180deg,var(--navy) 0 220px,var(--bg) 220px 100%)}.wrap{width:min(100% - 20px,980px);padding-top:26px}.content{grid-template-columns:1fr;padding:24px 20px}.qr{border-left:0;border-top:1px solid var(--line);padding:24px 0 0}.steps{padding:22px 20px 25px}.download{width:100%}}
+</style>
+</head>
+<body>
+<main class="wrap">
+<section class="hero"><div class="mark">RSBM</div><h1>RSBM ERP Android App</h1><p>Official app download page</p></section>
+<section class="card">
+<div class="content">
+<div>
+<div class="badge">UAT TEST BUILD</div>
+<h2>Download RSBM ERP</h2>
+<p class="lead">This page currently provides the signed UAT build for controlled testing. After update testing succeeds, the same permanent page address will provide the approved LIVE app.</p>
+<div class="meta"><span>Version 1.0</span><span>Android 6.0+</span><span>Signed APK</span></div>
+<a class="download" href="https://github.com/gauravchoudhary457/rsbm-app-releases/releases/download/uat-v1.0/RSBM-UAT-v1.0.apk">Download RSBM App</a>
+<p class="hint">Open this page on an Android phone, then tap the download button.</p>
+</div>
+<div class="qr"><img src="app-qr.svg" alt="QR code for the RSBM app download page"><strong>Scan to open this page</strong></div>
+</div>
+<div class="steps">
+<h3>Installation steps</h3>
+<ol><li>Download the APK using the button above.</li><li>Open the downloaded file and allow installation from your browser when Android asks.</li><li>Tap Install. Future mandatory updates will be shown inside the app.</li></ol>
+<div class="security">Download only from this official page. The APK is signed with the permanent RSBM release certificate and verified before every publication.</div>
+</div>
+</section>
+<footer>RS Bal Mandir · Official Android distribution</footer>
+</main>
+</body>
+</html>
